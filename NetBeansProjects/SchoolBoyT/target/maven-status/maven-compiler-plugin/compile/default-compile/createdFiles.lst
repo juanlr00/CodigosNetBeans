@@ -1,0 +1,9 @@
+com\mycompany\schoolboyt\App.class
+models\Alumno.class
+models\Profesor.class
+com\mycompany\schoolboyt\HibernateUtil.class
+com\mycompany\schoolboyt\PrimaryController.class
+com\mycompany\schoolboyt\SecondaryController.class
+module-info.class
+models\Empresa.class
+models\Actividades.class

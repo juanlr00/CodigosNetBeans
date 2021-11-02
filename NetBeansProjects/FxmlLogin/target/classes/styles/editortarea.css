@@ -1,0 +1,19 @@
+/*
+ * Empty Stylesheet file.
+ */
+
+#btnBorrar{
+    -fx-background-color:tomato;
+    -fx-margin:30px;
+    -fx-padding:30px;
+}
+
+.boton {
+    -fx-margin:10px;
+    -fx-padding:30px; 
+    -fx-font-size:20px;
+}
+
+.ventana {
+    -fx-background-image:url(@../../../com/mycompany/img/MicrosoftTeams-image.png);
+}
