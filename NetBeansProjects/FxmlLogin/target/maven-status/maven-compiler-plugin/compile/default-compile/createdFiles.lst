@@ -6,5 +6,4 @@ com\mycompany\fxmlLogin\HibernateUtil.class
 com\mycompany\fxmlLogin\SessionData.class
 module-info.class
 models\Tarea.class
-.netbeans_automatic_build
 com\mycompany\fxmlLogin\SecondaryController.class

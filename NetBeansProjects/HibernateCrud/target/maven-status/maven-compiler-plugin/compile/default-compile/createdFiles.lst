@@ -1,0 +1,5 @@
+com\mycompany\hibernatecrud\SessionData.class
+models\Pedido.class
+com\mycompany\hibernatecrud\HibernateUtil.class
+models\Carta.class
+com\mycompany\hibernatecrud\Principal.class
