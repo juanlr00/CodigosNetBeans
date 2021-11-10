@@ -17,15 +17,7 @@ import org.hibernate.cfg.Configuration;
  */
 public class Principal {
     public static void main(String[] args) {
-        SessionFactory sf = new Configuration().configure().buildSessionFactory();
-        
-        Pedido p = new Pedido(0L, "Ensalada");
-        
-        Session s = sf.openSession();
-        
-        Transaction t = s.beginTransaction();
-        s.save(p);
-        t.commit();
+       
         
     }
 }

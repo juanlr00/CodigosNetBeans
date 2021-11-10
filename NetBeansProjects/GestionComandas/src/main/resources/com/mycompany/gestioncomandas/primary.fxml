@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.FlowPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+
+<VBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="378.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.mycompany.gestionpracticas.PrimaryController">
+   <children>
+      <FlowPane alignment="TOP_CENTER" prefHeight="20.0" prefWidth="600.0">
+         <children>
+            <Label fx:id="txtPedidos" alignment="CENTER" contentDisplay="CENTER" text="Pedidos">
+               <font>
+                  <Font name="System Bold" size="24.0" />
+               </font>
+            </Label>
+         </children>
+      </FlowPane>
+      <TableView prefHeight="293.0" prefWidth="614.0" style="-fx-background-color: #CBD708;">
+         <columns>
+            <TableColumn fx:id="CCiclo" prefWidth="107.0" text="Ciclo" />
+            <TableColumn fx:id="CAlumno" prefWidth="141.0" text="Alumno" />
+            <TableColumn fx:id="CPedido" prefWidth="113.0" text="Pedido" />
+            <TableColumn fx:id="CPrecio" minWidth="5.0" prefWidth="112.0" text="Precio" />
+            <TableColumn fx:id="CEstado" prefWidth="126.0" text="Estado Producto" />
+         </columns>
+      </TableView>
+      <HBox alignment="CENTER" prefHeight="36.0" prefWidth="600.0">
+         <children>
+            <Button fx:id="btnAñadir" alignment="CENTER" mnemonicParsing="false" onAction="#añadir" prefHeight="49.0" prefWidth="212.0" text="Añadir">
+               <padding>
+                  <Insets bottom="16.0" top="16.0" />
+               </padding>
+            </Button>
+            <Button fx:id="btnEliminar" mnemonicParsing="false" onAction="#eliminar" prefHeight="49.0" prefWidth="211.0" text="Eliminar">
+               <padding>
+                  <Insets bottom="16.0" top="16.0" />
+               </padding>
+            </Button>
+            <Button fx:id="btnVer" mnemonicParsing="false" onAction="#verPedidos" prefHeight="49.0" prefWidth="216.0" text="Ver pedidos">
+               <padding>
+                  <Insets bottom="16.0" top="16.0" />
+               </padding>
+            </Button>
+         </children>
+      </HBox>
+   </children>
+</VBox>

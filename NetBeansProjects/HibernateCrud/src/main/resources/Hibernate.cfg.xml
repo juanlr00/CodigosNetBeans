@@ -9,8 +9,8 @@
         <property name="connection.password"></property>
         <property name="hibernate.show_sql">true</property>
 
-        <mapping class="com.mycompany.hibernatecrud.models.Carta"/>
-        <mapping class="com.mycompany.hibernatecrud.models.Pedido"/>
+        <mapping class="models.Carta"/>
+        <mapping class="models.Pedido"/>
     </session-factory>
 </hibernate-configuration>
 
