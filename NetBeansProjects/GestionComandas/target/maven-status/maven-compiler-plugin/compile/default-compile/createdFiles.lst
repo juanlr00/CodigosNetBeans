@@ -1,0 +1,5 @@
+com\mycompany\gestioncomandas\SecondaryController.class
+com\mycompany\gestioncomandas\App.class
+module-info.class
+com\mycompany\gestioncomandas\PrimaryController.class
+models\Pedido.class
