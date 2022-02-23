@@ -1,8 +1,0 @@
-module-info.class
-com\mycompany\comandasinterfaz\PrimaryController.class
-com\mycompany\comandasinterfaz\HibernateUtil.class
-models\Pedido.class
-com\mycompany\comandasinterfaz\App.class
-models\Carta.class
-com\mycompany\comandasinterfaz\SecondaryController.class
-com\mycompany\comandasinterfaz\SessionData.class

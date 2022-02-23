@@ -8,11 +8,11 @@
 <?import javafx.scene.layout.VBox?>
 <?import javafx.scene.text.Font?>
 
-<BorderPane style="-fx-background-color: #1E90FF;" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.mycompany.comandasinterfaz.PrimaryController">
+<BorderPane style="-fx-background-color: #0853B9;" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.mycompany.comandasinterfaz.PrimaryController">
    <center>
       <VBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0">
          <children>
-            <TableView fx:id="tvTabla" prefHeight="550.0" prefWidth="850.0" style="-fx-background-color: #1E90FF;">
+            <TableView fx:id="tvTabla" prefHeight="550.0" prefWidth="850.0" style="-fx-background-color: #0853B9;">
               <columns>
                 <TableColumn fx:id="CCiclo" editable="false" prefWidth="75.0" style="-fx-background-color: #FFC300;" text="Ciclo" />
                 <TableColumn fx:id="CAlumno" editable="false" prefWidth="75.0" style="-fx-background-color: #FFC300;" text="Alumno" />
